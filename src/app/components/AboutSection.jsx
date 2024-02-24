@@ -9,12 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
+        <li>React JS</li>
+        <li>React Native</li>
+        <li>Next JS</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>MySQL</li>
       </ul>
     ),
   },
@@ -23,18 +22,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Telkom University Surabaya</li>
+        <li>Arcademy Tech Academy</li>
+        <li>SMA Negeri Jatirogo</li>
       </ul>
     ),
   },
@@ -57,12 +47,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Web Developer whose target is to become a reliable programmer and be able to develop websites with the latest technology. Decided to attend bootcamp and deepen coding skills, especially in JavaScript, React JS, Node JS, Express, Next JS, MySQL and more. I am able to achieve targets and can work well in a team and be objective in whatever I do.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -78,13 +63,6 @@ const AboutSection = () => {
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">
