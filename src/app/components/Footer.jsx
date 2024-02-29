@@ -4,38 +4,29 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
-
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-      <div className="container px-24 py-12 flex justify-between">
-        <span>LOGO</span>
+      <div className="container mx-auto px-4 lg:px-24 py-12 flex flex-col lg:flex-row justify-center lg:justify-between items-center">
+        <div className="logo">
+          <span>LOGO</span>
+        </div>
         <div className="z-10">
-        <h5 className="text-xl text-white ">
-          Let&apos;s Connect
-        </h5>
-        {/* <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
-        </p> */}
-        <div className="socials flex flex-row gap-2 py-4">
-          <Link href="https://github.com/AzizImastara">
-            <Image src={GithubIcon} alt="Github Icon" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/azizimastara/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
+          <h5 className="text-xl text-white">Let&apos;s Connect</h5>
+          <div className="socials flex flex-row gap-2 py-4">
+            <Link href="https://github.com/AzizImastara">
+              <Image src={GithubIcon} alt="Github Icon" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/azizimastara/">
+              <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            </Link>
+          </div>
         </div>
       </div>
-      </div>
-      <div className="copyright container px-24 py-4 mb-4">
+      <div className="copyright container mx-auto px-4 lg:px-24 py-4 mb-4">
         <p className="text-white">© 2024 Aziz Imastara</p>
       </div>
-
     </footer>
-    
   );
 };
 
