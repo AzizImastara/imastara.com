@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Ticketing",
     description:
-      "Ticketing is an online-based film ticket booking application. In this Ticketing application, customers can order tickets, see the schedule of films currently showing, and a list of films that will be shown. Users in this application are divided into two roles, namely customer and admin. For the admin role, it is possible to make changes, add and delete film details and film schedules, while for the custommer role, you can order more than one ticket in one transaction.",
+      "Ticketing is an online-based film ticket booking application. Users can order tickets, see the schedule of films currently showing, and a list of films that will be shown. There are two user roles in this application, namely customer and admin. Admins can make changes, additions and deletions to film details and film schedules, while customers can order more than one ticket in one transaction.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/AzizImastara/fe-tiketingapi",
@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Zwallet",
     description:
-      "Zwallet is a transaction application that you can use to top up and transfer to fellow users of the zwallet application. Zwallet is built using NextJS.",
+      "Zwallet is a transaction application that makes it easy for users to top up and transfer to fellow Zwallet application users. By using the NextJS platform, Zwallet offers a responsive and fast user experience in carrying out financial transactions online. Strong security features and an intuitive interface make Zwallet an ideal choice for those who want to make transactions easily and securely..",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/AzizImastara/zwallet-next",
@@ -29,7 +29,7 @@ const projectsData = [
     id: 3,
     title: "Panda Coffe",
     description:
-      "Public demands for convenience in every online activity, therefore the online coffee shop application was developed. With the availability of services via the internet, visitors can find out information about PandaCoffeShop's profile, products, customer service and place reservations. With this application, it is hoped that PandaCoffeShop's marketing program will be maximized",
+      "PandaCoffeShop is an online coffee application that allows visitors to get information about profiles, products, customer service, and make reservations. This application is designed to improve PandaCoffeShop's marketing program by providing easy access to users via the internet.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/justrinoo/pandaCoffee-frontend",
@@ -39,7 +39,7 @@ const projectsData = [
     id: 4,
     title: "Jobrec",
     description:
-      "JobRec is an online job application application that aims to make it easier for applicants to find work and make it easier for recruiters to find applicants. The way this application works is that applicants can share their CV, portfolio or work experience in this application so that recruiters can see the applicant's CV or portfolio as well as the applicant's personal data, making it easier for recruiters to contact applicants.",
+      "JobRec is an online recruiting application that makes it easier for job seekers to find jobs and makes it easier for recruiters to find potential applicants. This application allows applicants to share their CV, portfolio or work experience so that recruiters can view it along with the applicant's personal data, facilitating contact between recruiters and applicants.",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/fajriputra/frontend-jobrec",
@@ -49,7 +49,7 @@ const projectsData = [
     id: 5,
     title: "Ticketing Mobile",
     description:
-      "Ticketing is an online-based film ticket booking application. In this Ticketing application, customers can order tickets, see the schedule of films currently showing, and a list of films that will be shown. Users in this application are divided into two roles, namely customer and admin. For the admin role, it is possible to make changes, add and delete film details and film schedules, while for the custommer role, you can order more than one ticket in one transaction.",
+      "Ticketing is an online-based film ticket booking application. Users can order tickets, see the schedule of films currently showing, and a list of films that will be shown. There are two user roles in this application, namely customer and admin. Admins can make changes, additions and deletions to film details and film schedules, while customers can order more than one ticket in one transaction.",
     image: "/images/projects/5.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/AzizImastara/tiketing-native",
