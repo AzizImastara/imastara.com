@@ -10,7 +10,7 @@ const projectsData = [
     title: "Ticketing",
     description:
       "Ticketing is an online-based film ticket booking application. Users can order tickets, see the schedule of films currently showing, and a list of films that will be shown. There are two user roles in this application, namely customer and admin. Admins can make changes, additions and deletions to film details and film schedules, while customers can order more than one ticket in one transaction.",
-    image: "/images/projects/1.png",
+    image: "/images/projects/11.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/AzizImastara/fe-tiketingapi",
     previewUrl: "https://ticketings.netlify.app/",
@@ -20,7 +20,7 @@ const projectsData = [
     title: "Zwallet",
     description:
       "Zwallet is a transaction application that makes it easy for users to top up and transfer to fellow Zwallet application users. By using the NextJS platform, Zwallet offers a responsive and fast user experience in carrying out financial transactions online. Strong security features and an intuitive interface make Zwallet an ideal choice for those who want to make transactions easily and securely..",
-    image: "/images/projects/2.png",
+    image: "/images/projects/22.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/AzizImastara/zwallet-next",
     previewUrl: "https://zwallet-next.netlify.app/",
@@ -30,7 +30,7 @@ const projectsData = [
     title: "Panda Coffe",
     description:
       "PandaCoffeShop is an online coffee application that allows visitors to get information about profiles, products, customer service, and make reservations. This application is designed to improve PandaCoffeShop's marketing program by providing easy access to users via the internet.",
-    image: "/images/projects/3.png",
+    image: "/images/projects/33.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/justrinoo/pandaCoffee-frontend",
     previewUrl: "https://panda-coffee-cip8cj9bf-riyaraa.vercel.app/",
@@ -40,7 +40,7 @@ const projectsData = [
     title: "Jobrec",
     description:
       "JobRec is an online recruiting application that makes it easier for job seekers to find jobs and makes it easier for recruiters to find potential applicants. This application allows applicants to share their CV, portfolio or work experience so that recruiters can view it along with the applicant's personal data, facilitating contact between recruiters and applicants.",
-    image: "/images/projects/4.png",
+    image: "/images/projects/44.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/fajriputra/frontend-jobrec",
     previewUrl: "https://search-jobrect.netlify.app/",
@@ -50,7 +50,7 @@ const projectsData = [
     title: "Ticketing Mobile",
     description:
       "Ticketing is an online-based film ticket booking application. Users can order tickets, see the schedule of films currently showing, and a list of films that will be shown. There are two user roles in this application, namely customer and admin. Admins can make changes, additions and deletions to film details and film schedules, while customers can order more than one ticket in one transaction.",
-    image: "/images/projects/5.png",
+    image: "/images/projects/55.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/AzizImastara/tiketing-native",
     previewUrl:
