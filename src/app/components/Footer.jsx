@@ -9,7 +9,12 @@ const Footer = () => {
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container mx-auto px-4 lg:px-24 py-12 flex flex-col lg:flex-row justify-center lg:justify-between items-center">
         <div className="logo">
-          <span>LOGO</span>
+          <Image
+            src="/images/LOGO-removebg.png"
+            width={75}
+            height={75}
+            alt="logo"
+          />
         </div>
         <div className="z-10">
           <h5 className="text-xl text-white">Let&apos;s Connect</h5>
