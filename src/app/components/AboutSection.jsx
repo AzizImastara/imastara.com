@@ -47,7 +47,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Web Developer whose target is to become a reliable programmer and be able to develop websites with the latest technology. Decided to attend bootcamp and deepen coding skills, especially in JavaScript, React JS, Node JS, Express, Next JS, MySQL and more. I am able to achieve targets and can work well in a team and be objective in whatever I do.
+            Web Developer whose target is to become a reliable programmer and be
+            able to develop websites with the latest technology. Decided to
+            deepen coding skills, especially in JavaScript, React JS, Node JS,
+            Express, Next JS, MySQL and more. I am able to achieve targets and
+            can work well in a team and be objective in whatever I do.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
